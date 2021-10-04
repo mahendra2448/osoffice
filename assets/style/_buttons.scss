@@ -1,0 +1,36 @@
+@import './typo';
+@import './colors';
+
+.btn-master {
+    font-size: .8rem;
+    font-weight: map-get($font-weights, regular);
+    padding: .7rem 1.5rem;
+    letter-spacing: .12rem;
+    border: none;
+    border-radius: .5rem;
+    transition: background-color 0.2s ease;
+    &:hover {
+        background-color: $pink;
+    }
+}
+.btn-primary {
+    @extend .btn-master;
+    color: $white;
+    background-color: $marine;
+}
+.btn-secondary {
+    @extend .btn-master;
+    color: $persian;
+    background-color: $white;
+}
+.btn-ctc {
+    @extend .btn-master;
+    color: $white;
+    margin-left: 2.5rem;
+    padding: .5rem 1.3rem;
+    background-color: $marine;
+    &:hover {
+        color: $white;
+        text-decoration: none;
+    }
+}
