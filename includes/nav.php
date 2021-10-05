@@ -46,19 +46,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" rel="noreferrer" href="/">Home</a>
+                        <a class="nav-link <?= strpos($_SERVER['REQUEST_URI'], "") ? 'active' : ''; ?>" rel="noreferrer" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" rel="noreferrer" href="products.php">Products</a>
+                        <a class="nav-link <?= strpos($_SERVER['REQUEST_URI'], "product")? 'active' : ''; ?>" rel="noreferrer" href="products.php">Products</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" rel="noreferrer" href="support.php">Support</a>
+                        <a class="nav-link <?= strpos($_SERVER['REQUEST_URI'], "support")? 'active' : ''; ?>" rel="noreferrer" href="support.php">Support</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" rel="noreferrer" href="get-involved.php">Get Involved</a>
+                        <a class="nav-link <?= strpos($_SERVER['REQUEST_URI'], "involve")? 'active' : ''; ?>" rel="noreferrer" href="get-involved.php">Get Involved</a>
                     </li>
                     <li class="nav-item">
-                        <a class="btn-ctc" rel="noreferrer" href="download.php">FREE DOWNLOAD</a>
+                        <a class="btn-ctc" rel="noreferrer" href="products.php">FREE DOWNLOAD</a>
                     </li>
                 </ul>
             </div>
