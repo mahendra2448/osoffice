@@ -11,7 +11,7 @@
         <div class="section header page" data-parallax="scroll" data-image-src="assets/img/hero-page.png">
             <div class="container-fluid d-flex">
                 <div class="heading-text align-self-center">
-                    <h1 class="heading mb-1">Products</h1>
+                    <h1 class="heading mb-1">Supports</h1>
                 </div>
             </div>
         </div>
@@ -26,7 +26,7 @@
                         <h2>OpenOffice</h2>
                         <p>Apache OpenOffice is the leading open-source office software suite for word processing, spreadsheets, presentations, graphics, databases and more.</p>
                         
-                        <a href="#" rel="noreferrer" class="btn btn-primary mt-2">Free Download</a>
+                        <a href="#" rel="noreferrer" class="btn btn-primary mt-2">Contact</a>
                     </div>
                 </div>
                 <div class="row">
@@ -39,7 +39,7 @@
                         <h2>LibreOffice</h2>
                         <p>LibreOffice is a free and powerful office suite, and a successor to OpenOffice.org (commonly known as OpenOffice).</p>
                         
-                        <a href="#" rel="noreferrer" class="btn btn-primary mt-2">Free Download</a>
+                        <a href="#" rel="noreferrer" class="btn btn-primary mt-2">Contact</a>
                     </div>
                 </div>
             </div>
