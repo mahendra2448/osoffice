@@ -23,7 +23,7 @@
 
         <div class="section">
             <div class="container p-5 text-center">
-                <h1 class="font-weight-bold mb-3">What is OSOffice?</h1>
+                <h1 class="font-weight-bold mb-3">What is OpenSource-Office?</h1>
                 <p class="m-auto">OSOffice is stands for Open-Source Office that delivers you with high-quality open-source office software such as Apache OpenOffice and LibreOffice. These are absolutely free (but you can donate) office's software for word, spreadsheets, presentations, graphics processing, etc. You don't need to pay or subscribe any amount.</p>
             </div>
         </div>
